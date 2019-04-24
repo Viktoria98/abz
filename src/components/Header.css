@@ -1,0 +1,88 @@
+/*HEADER*/
+
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Overpass:600');
+
+.header-wrapper {
+	display: flex;
+}
+
+.logo {
+	margin-top: 20px;
+}
+
+.logo img{
+	height: 24px;
+}
+
+.menu {
+	list-style: none;
+	display: flex;
+	margin-top: 21px;
+	padding-left: 67px;
+}
+
+.menu_item {
+	display: block;
+	padding-right: 30px;
+}
+
+.menu_link {
+	color: #000000;
+	text-decoration: none;
+	cursor: pointer;
+	font-family: "Source Sans Pro";
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 19px;
+}
+
+.user {
+	display: flex;
+	margin-left: 39px;
+}
+
+.user-info span {
+	display: block;
+}
+
+.personName {
+	display: block;
+	text-align: right;
+	color: #000000;
+	font-family: "Source Sans Pro";
+	font-size: 14px;
+	font-weight: 400;
+	margin-top: 13px;
+	line-height: 20px;
+}
+
+.personEmail {
+	display: block;
+	color: #8d8c8c;
+	font-family: "Source Sans Pro";
+	font-size: 12px;
+	font-weight: 400;
+}
+
+.userPhoto {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	margin-top: 12px;
+	margin-left: 15px;
+}
+
+.signOutSvg {
+	height: 20px;
+	margin-left: 14px;
+	margin-top: 22px;
+}
+
+
+
+
+
+
+
+
