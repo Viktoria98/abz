@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import axios from 'axios';
 import logoSvg from '../logo/logo.svg';
 import signOutSvg from '../icons/sign-out.svg';
-import './Header.css';
+import './Header.scss';
 
 class Header extends Component {
 	constructor(props) {
@@ -24,7 +24,7 @@ class Header extends Component {
 
 	render() {
 		return (
-			<div className='Header'>
+			<div className='header'>
 				<div className="wrapper header-wrapper">
 					<div className='logo'>
 						<img src={logoSvg}  />

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Overpass:600');
+
+h2 {
+	color: #000000;
+	font-family: Overpass;
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 50px;
+}
+
+.about {
+	text-align: center;
+
+	.flex {
+		display: flex;
+	}
+
+	img {
+		margin-top: 28px;
+	}
+
+	.text-block {
+		padding-top: 48px;
+		padding-left: 30px;
+
+	}
+	
+	h2 {
+		margin-top: 132px;
+	}
+
+	h3 {
+		text-align: left;
+		color: #000000;
+		font-family: "Overpass";
+		font-size: 26px;
+		font-weight: 400;
+		
+	}
+
+	p {
+		margin-top: 10px;
+		text-align: left;
+		color: #4c4b4b;
+		font-family: "Source Sans Pro";
+		font-size: 16px;
+		font-weight: 400;
+		line-height: 22px;
+	}
+
+	p.sp {
+		margin-top: 22px;
+	}
+
+	span {
+		margin-top: 22px;
+		display: block;
+		width: 75px;
+		color: #ef6c00;
+		font-family: "Source Sans Pro";
+		font-size: 22px;
+		font-weight: 700;
+		background-color: transparent;
+	}	
+}

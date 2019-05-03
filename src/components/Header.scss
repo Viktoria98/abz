@@ -3,16 +3,20 @@
 @import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700');
 @import url('https://fonts.googleapis.com/css?family=Overpass:600');
 
+.header {
+	margin-bottom: 11px;
+}
+
 .header-wrapper {
 	display: flex;
 }
 
 .logo {
 	margin-top: 20px;
-}
 
-.logo img{
-	height: 24px;
+	img {
+		height: 24px;
+	}
 }
 
 .menu {
@@ -40,11 +44,12 @@
 .user {
 	display: flex;
 	margin-left: 39px;
+
+	span {
+		display: block;
+	}
 }
 
-.user-info span {
-	display: block;
-}
 
 .personName {
 	display: block;
