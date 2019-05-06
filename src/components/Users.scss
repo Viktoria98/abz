@@ -11,4 +11,61 @@
 		text-align: center;
 		margin-top: 19px;
 	}
+
+	.flex {
+		flex-wrap: wrap;
+	}
+
+	.user-flex {
+		display: flex;
+		width: 31%;
+		margin-top: 59px;
+
+		img {
+			height: 70px;
+			border-radius: 50%;
+		}
+
+		.user-info {
+			margin-left: 9px;
+			overflow: hidden;
+		}
+
+		h4 {
+			color: #000000;
+			font-family: "Overpass";
+			font-size: 22px;
+			font-weight: 400;
+			margin-bottom: 12px;
+			margin-top: 24px;
+			line-height: 24px;
+		}
+
+		span {
+			display: block;
+			color: #4c4b4b;
+			font-family: "Source Sans Pro";
+			font-size: 14px;
+			font-weight: 400;
+			line-height: 18px;
+		}
+	}
+
+	button {
+		background-color: #ffffff;
+		color: #ef6c00;
+		border-radius: 4px;
+		border: 2px solid #ef6c00;
+		display: block;
+		margin: 56px auto 0;
+	}
+
+
 }
+
+
+
+
+
+
+

@@ -10,6 +10,7 @@ import About from 'components/About';
 import Relationships from 'components/Relationships';
 import Requirements from 'components/Requirements';
 import Users from 'components/Users';
+import Registration from 'components/Registration';
 
 class App extends Component {
 	render() {
@@ -21,6 +22,7 @@ class App extends Component {
        			<Relationships />
        			<Requirements />
                         <Users />
+                        <Registration />
       		</div>
 		)
 	}

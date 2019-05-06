@@ -18,7 +18,6 @@ class Header extends Component {
 			.then(res => {
 				const person = res.data.user;
 				this.setState({ person });
-        		console.log(res.data.user);
 			})
 	}
 
